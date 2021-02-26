@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="zhang_calibration"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\eigen3\;CMake Files\..\..\..\..\usr\local\share\eigen3\cmake\;CMake Files\..\..\Sophus\;CMake Files\..\..\Sophus\build\;CMake Files\..\..\opencv\;CMake Files\..\..\opencv\build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CALIB">
+				<Option output="/home/liushiqi/ClionProjects/zhang_calibration/lib/libCALIB.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG_FLAG"/>
+					<Add directory="/home/liushiqi/opencv/build"/>
+					<Add directory="/home/liushiqi/opencv/include"/>
+					<Add directory="/home/liushiqi/opencv/include/opencv"/>
+					<Add directory="/home/liushiqi/opencv/modules/core/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/flann/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/imgproc/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/ml/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/photo/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/video/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/viz/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/dnn/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/imgcodecs/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/shape/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/videoio/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/highgui/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/superres/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/ts/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/features2d/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/calib3d/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/objdetect/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/stitching/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/videostab/include"/>
+					<Add directory="/home/liushiqi/Sophus"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/liushiqi/ClionProjects/zhang_calibration/include"/>
+					<Add directory="/home/liushiqi/ClionProjects/zhang_calibration/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 CALIB"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CALIB/fast">
+				<Option output="/home/liushiqi/ClionProjects/zhang_calibration/lib/libCALIB.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG_FLAG"/>
+					<Add directory="/home/liushiqi/opencv/build"/>
+					<Add directory="/home/liushiqi/opencv/include"/>
+					<Add directory="/home/liushiqi/opencv/include/opencv"/>
+					<Add directory="/home/liushiqi/opencv/modules/core/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/flann/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/imgproc/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/ml/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/photo/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/video/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/viz/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/dnn/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/imgcodecs/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/shape/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/videoio/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/highgui/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/superres/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/ts/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/features2d/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/calib3d/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/objdetect/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/stitching/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/videostab/include"/>
+					<Add directory="/home/liushiqi/Sophus"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/liushiqi/ClionProjects/zhang_calibration/include"/>
+					<Add directory="/home/liushiqi/ClionProjects/zhang_calibration/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 CALIB/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zhang_calibration">
+				<Option output="/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/zhang_calibration" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG_FLAG"/>
+					<Add directory="/home/liushiqi/Sophus"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/liushiqi/ClionProjects/zhang_calibration/include"/>
+					<Add directory="/home/liushiqi/ClionProjects/zhang_calibration/src"/>
+					<Add directory="/home/liushiqi/opencv/build"/>
+					<Add directory="/home/liushiqi/opencv/include"/>
+					<Add directory="/home/liushiqi/opencv/include/opencv"/>
+					<Add directory="/home/liushiqi/opencv/modules/core/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/flann/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/imgproc/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/ml/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/photo/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/video/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/viz/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/dnn/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/imgcodecs/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/shape/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/videoio/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/highgui/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/superres/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/ts/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/features2d/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/calib3d/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/objdetect/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/stitching/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 zhang_calibration"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zhang_calibration/fast">
+				<Option output="/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/zhang_calibration" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG_FLAG"/>
+					<Add directory="/home/liushiqi/Sophus"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/liushiqi/ClionProjects/zhang_calibration/include"/>
+					<Add directory="/home/liushiqi/ClionProjects/zhang_calibration/src"/>
+					<Add directory="/home/liushiqi/opencv/build"/>
+					<Add directory="/home/liushiqi/opencv/include"/>
+					<Add directory="/home/liushiqi/opencv/include/opencv"/>
+					<Add directory="/home/liushiqi/opencv/modules/core/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/flann/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/imgproc/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/ml/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/photo/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/video/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/viz/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/dnn/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/imgcodecs/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/shape/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/videoio/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/highgui/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/superres/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/ts/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/features2d/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/calib3d/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/objdetect/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/stitching/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 zhang_calibration/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="openCVCalibration">
+				<Option output="/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/openCVCalibration" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG_FLAG"/>
+					<Add directory="/home/liushiqi/Sophus"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/liushiqi/ClionProjects/zhang_calibration/include"/>
+					<Add directory="/home/liushiqi/ClionProjects/zhang_calibration/src"/>
+					<Add directory="/home/liushiqi/opencv/build"/>
+					<Add directory="/home/liushiqi/opencv/include"/>
+					<Add directory="/home/liushiqi/opencv/include/opencv"/>
+					<Add directory="/home/liushiqi/opencv/modules/core/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/flann/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/imgproc/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/ml/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/photo/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/video/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/viz/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/dnn/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/imgcodecs/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/shape/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/videoio/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/highgui/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/superres/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/ts/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/features2d/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/calib3d/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/objdetect/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/stitching/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 openCVCalibration"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="openCVCalibration/fast">
+				<Option output="/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/openCVCalibration" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG_FLAG"/>
+					<Add directory="/home/liushiqi/Sophus"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/liushiqi/ClionProjects/zhang_calibration/include"/>
+					<Add directory="/home/liushiqi/ClionProjects/zhang_calibration/src"/>
+					<Add directory="/home/liushiqi/opencv/build"/>
+					<Add directory="/home/liushiqi/opencv/include"/>
+					<Add directory="/home/liushiqi/opencv/include/opencv"/>
+					<Add directory="/home/liushiqi/opencv/modules/core/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/flann/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/imgproc/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/ml/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/photo/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/video/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/viz/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/dnn/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/imgcodecs/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/shape/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/videoio/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/highgui/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/superres/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/ts/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/features2d/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/calib3d/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/objdetect/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/stitching/include"/>
+					<Add directory="/home/liushiqi/opencv/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 openCVCalibration/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liushiqi/ClionProjects/zhang_calibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/liushiqi/ClionProjects/zhang_calibration/main.cpp">
+			<Option target="zhang_calibration"/>
+		</Unit>
+		<Unit filename="/home/liushiqi/ClionProjects/zhang_calibration/openCVCalibSample.cpp">
+			<Option target="openCVCalibration"/>
+		</Unit>
+		<Unit filename="/home/liushiqi/ClionProjects/zhang_calibration/src/ZZYCalibration.cpp">
+			<Option target="CALIB"/>
+		</Unit>
+		<Unit filename="/home/liushiqi/ClionProjects/zhang_calibration/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/liushiqi/ClionProjects/zhang_calibration/../../../../usr/local/share/eigen3/cmake/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/liushiqi/ClionProjects/zhang_calibration/../../../../usr/local/share/eigen3/cmake/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/liushiqi/ClionProjects/zhang_calibration/../../../../usr/local/share/eigen3/cmake/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/liushiqi/ClionProjects/zhang_calibration/../../Sophus/build/SophusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Sophus\build\"/>
+		</Unit>
+		<Unit filename="/home/liushiqi/ClionProjects/zhang_calibration/../../opencv/build/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\opencv\build\"/>
+		</Unit>
+		<Unit filename="/home/liushiqi/ClionProjects/zhang_calibration/../../opencv/build/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\opencv\build\"/>
+		</Unit>
+		<Unit filename="/home/liushiqi/ClionProjects/zhang_calibration/../../opencv/build/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\opencv\build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
